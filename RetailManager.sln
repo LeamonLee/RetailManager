@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIDataManager", "WebAPIDataManager\WebAPIDataManager.csproj", "{FD683042-8224-499A-8C56-FCA3FA677527}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RMSQLDatabase", "RMSQLDatabase\RMSQLDatabase.sqlproj", "{324E8831-5325-44F9-98B8-8394EDE4ECCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMWpfUI", "RMWpfUI\RMWpfUI.csproj", "{508B63E3-C39F-4386-81B7-3CBA0DF89D18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{FD683042-8224-499A-8C56-FCA3FA677527}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD683042-8224-499A-8C56-FCA3FA677527}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD683042-8224-499A-8C56-FCA3FA677527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324E8831-5325-44F9-98B8-8394EDE4ECCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324E8831-5325-44F9-98B8-8394EDE4ECCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324E8831-5325-44F9-98B8-8394EDE4ECCF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{324E8831-5325-44F9-98B8-8394EDE4ECCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324E8831-5325-44F9-98B8-8394EDE4ECCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324E8831-5325-44F9-98B8-8394EDE4ECCF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{508B63E3-C39F-4386-81B7-3CBA0DF89D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508B63E3-C39F-4386-81B7-3CBA0DF89D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508B63E3-C39F-4386-81B7-3CBA0DF89D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508B63E3-C39F-4386-81B7-3CBA0DF89D18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
