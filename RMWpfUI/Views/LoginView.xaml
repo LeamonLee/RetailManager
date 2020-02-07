@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="RMWpfUI.Views.LoginView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RMWpfUI.Views"
+             mc:Ignorable="d" Background="White"
+             d:DesignHeight="450" d:DesignWidth="800" FontSize="24">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <!-- This is gonna certralize the content -->
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>      <!-- Login Header -->
+            <RowDefinition Height="auto"/>      <!-- Username -->
+            <RowDefinition Height="auto"/>      <!-- Password -->
+            <RowDefinition Height="auto"/>      <!-- Submit Button -->
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" 
+                   FontSize="64" FontFamily="Segoe UI Light" Margin="0 0 0 20">
+            Login Form
+        </TextBlock>
+        <!-- Username Row -->
+        <TextBlock Grid.Row="1" Grid.Column="1" Margin="0 0 0 10">
+            Username:
+        </TextBlock>
+        <TextBox x:Name="txtUserName" Grid.Row="1" Grid.Column="2" MinWidth="150" Margin="0 0 0 20"/>
+
+        <!-- Password Row -->
+        <TextBlock Grid.Row="2" Grid.Column="1" Margin="0 0 0 10">
+            Password:
+        </TextBlock>
+        <PasswordBox x:Name="txtPassword" Grid.Row="2" Grid.Column="2" MinWidth="150" Margin="0 0 0 20"/>
+        
+        <!-- Login Button Row -->
+        <Button Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2"
+                HorizontalAlignment="Center" x:Name="btnLogin" Padding="20 5">
+            Log in
+        </Button>
+        
+        
+    </Grid>
+</UserControl>
